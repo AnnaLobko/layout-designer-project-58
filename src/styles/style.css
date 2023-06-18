@@ -1,11 +1,4 @@
 /** CSS STYLE **/
-
-.hello {
-  display: block;
-
-  color: #fff;
-}
-
 :root {
   --orange: #FE8A02;
   --white: #fff;
@@ -34,7 +27,7 @@
 
 body {
   margin: 0;
-  font-family: OpenSans;
+  font-family: OpenSans, sans-serif;
   font-size: 16px;
   line-height: 1.6em;
   color: var(--dark);
@@ -45,7 +38,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Neucha;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
   margin: 0;
 }
@@ -177,8 +170,7 @@ ul {
 
 .navigation {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   justify-content: space-between;
 
 }
@@ -198,6 +190,6 @@ ul {
   margin-bottom: 40px;
   padding-top: 20px;
   font-size: 64px;
-  font-family: Neucha;
+  font-family: Neucha, cursive;
   font-weight: 1;
 }
